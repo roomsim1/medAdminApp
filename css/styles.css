@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   background-image: url(../images/cloud-sky.jpg);
   background-size: cover;
@@ -13,13 +17,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .1);
   z-index: 0;
 } */
 
-html {
-  height: 100%;
-}
 
 h1 {
   text-align: center;
@@ -29,4 +30,36 @@ h1 {
 label {
   color: #fff;
   font-size: 1.5em;
+}
+
+.form-check-inline label {
+  font-size: 1.0em;
+}
+
+ .custom-select {
+   width: 100%;
+   padding: 7px;
+}
+
+option {
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+.text-muted {
+  color: lightblue;
+  text-align: center;
+}
+
+.btn-primary {
+  margin-top: 34px;
+}
+#patientName {
+  width: 100%;
+  height: 32px;
+}
+
+.made-patient-list {
+  border: 1px solid red;
+  margin-top: 34px;
 }
