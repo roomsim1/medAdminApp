@@ -1,0 +1,9 @@
+body {
+  background-image: url(../images/cloud-sky.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  height: 100%;
+}
